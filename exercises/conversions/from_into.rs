@@ -10,7 +10,7 @@
 #[derive(Debug)]
 struct Person {
     name: String,
-    age: usize,
+    age: u8,
 }
 
 // We implement the Default trait to use it as a fallback
