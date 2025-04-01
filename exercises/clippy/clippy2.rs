@@ -5,6 +5,9 @@
 
 fn main() {
     let mut res = 42;
-
-    println!("{res}");
+    let option = Some(12);
+    if let Some(x) = option {
+        res += x;
+    }
+    println!("{}", res);
 }
