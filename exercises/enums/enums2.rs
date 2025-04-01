@@ -6,8 +6,7 @@
 #[derive(Debug)]
 enum Message {
     // TODO: define the different variants used below
-    Resize { width: i32, height: i32 },
-    Move(Point),
+    Move { x: usize, y: usize },
     Echo(String),
     ChangeColor(i32, i32, i32),
     Quit,
